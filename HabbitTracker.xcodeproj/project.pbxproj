@@ -16,6 +16,9 @@
 		67ED673824B0C96200EB044F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67ED673624B0C96200EB044F /* LaunchScreen.storyboard */; };
 		67ED674324B0C96200EB044F /* HabbitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED674224B0C96200EB044F /* HabbitTrackerTests.swift */; };
 		67ED674E24B0C96200EB044F /* HabbitTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ED674D24B0C96200EB044F /* HabbitTrackerUITests.swift */; };
+		D1CB30B9500B6468F3C5309D /* Pods_HabbitTracker_HabbitTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183ABCC8E5971B7D3F563098 /* Pods_HabbitTracker_HabbitTrackerUITests.framework */; };
+		E9FC2CA5D042CB7AE864577B /* Pods_HabbitTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1C8021F101D3C1128BE157 /* Pods_HabbitTrackerTests.framework */; };
+		F69B0FE60B5CDD1F246DB6D1 /* Pods_HabbitTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A536583D7B0693EC2EA9CF6 /* Pods_HabbitTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1C8021F101D3C1128BE157 /* Pods_HabbitTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabbitTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183ABCC8E5971B7D3F563098 /* Pods_HabbitTracker_HabbitTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabbitTracker_HabbitTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A536583D7B0693EC2EA9CF6 /* Pods_HabbitTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabbitTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52139B10321D169548BB9763 /* Pods-HabbitTracker-HabbitTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabbitTracker-HabbitTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-HabbitTracker-HabbitTrackerUITests/Pods-HabbitTracker-HabbitTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C1FBBC50AE5292BBA0659E4 /* Pods-HabbitTracker-HabbitTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabbitTracker-HabbitTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-HabbitTracker-HabbitTrackerUITests/Pods-HabbitTracker-HabbitTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		67ED672524B0C95F00EB044F /* HabbitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabbitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67ED672824B0C95F00EB044F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67ED672A24B0C95F00EB044F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		67ED674924B0C96200EB044F /* HabbitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabbitTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67ED674D24B0C96200EB044F /* HabbitTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabbitTrackerUITests.swift; sourceTree = "<group>"; };
 		67ED674F24B0C96200EB044F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F653C8D4A6D3868F0F5BD51 /* Pods-HabbitTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabbitTracker.debug.xcconfig"; path = "Target Support Files/Pods-HabbitTracker/Pods-HabbitTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		C89AEA003CC7F89FACEF2932 /* Pods-HabbitTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabbitTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-HabbitTrackerTests/Pods-HabbitTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE2CF4B70EC63BB2332971E4 /* Pods-HabbitTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabbitTracker.release.xcconfig"; path = "Target Support Files/Pods-HabbitTracker/Pods-HabbitTracker.release.xcconfig"; sourceTree = "<group>"; };
+		F2BCAF622983D4A1077681D0 /* Pods-HabbitTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabbitTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-HabbitTrackerTests/Pods-HabbitTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69B0FE60B5CDD1F246DB6D1 /* Pods_HabbitTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FC2CA5D042CB7AE864577B /* Pods_HabbitTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1CB30B9500B6468F3C5309D /* Pods_HabbitTracker_HabbitTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				67ED674124B0C96200EB044F /* HabbitTrackerTests */,
 				67ED674C24B0C96200EB044F /* HabbitTrackerUITests */,
 				67ED672624B0C95F00EB044F /* Products */,
+				FF4EF9CA6D03AF7DCA959853 /* Pods */,
+				694C008E84429303CCD4C4D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = HabbitTrackerUITests;
 			sourceTree = "<group>";
 		};
+		694C008E84429303CCD4C4D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A536583D7B0693EC2EA9CF6 /* Pods_HabbitTracker.framework */,
+				183ABCC8E5971B7D3F563098 /* Pods_HabbitTracker_HabbitTrackerUITests.framework */,
+				0C1C8021F101D3C1128BE157 /* Pods_HabbitTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF4EF9CA6D03AF7DCA959853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F653C8D4A6D3868F0F5BD51 /* Pods-HabbitTracker.debug.xcconfig */,
+				DE2CF4B70EC63BB2332971E4 /* Pods-HabbitTracker.release.xcconfig */,
+				5C1FBBC50AE5292BBA0659E4 /* Pods-HabbitTracker-HabbitTrackerUITests.debug.xcconfig */,
+				52139B10321D169548BB9763 /* Pods-HabbitTracker-HabbitTrackerUITests.release.xcconfig */,
+				F2BCAF622983D4A1077681D0 /* Pods-HabbitTrackerTests.debug.xcconfig */,
+				C89AEA003CC7F89FACEF2932 /* Pods-HabbitTrackerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67ED675224B0C96200EB044F /* Build configuration list for PBXNativeTarget "HabbitTracker" */;
 			buildPhases = (
+				B34C67174E129F45822046D6 /* [CP] Check Pods Manifest.lock */,
 				67ED672124B0C95F00EB044F /* Sources */,
 				67ED672224B0C95F00EB044F /* Frameworks */,
 				67ED672324B0C95F00EB044F /* Resources */,
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67ED675524B0C96200EB044F /* Build configuration list for PBXNativeTarget "HabbitTrackerTests" */;
 			buildPhases = (
+				41C044720C3616D9CDC80C6E /* [CP] Check Pods Manifest.lock */,
 				67ED673A24B0C96200EB044F /* Sources */,
 				67ED673B24B0C96200EB044F /* Frameworks */,
 				67ED673C24B0C96200EB044F /* Resources */,
@@ -173,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67ED675824B0C96200EB044F /* Build configuration list for PBXNativeTarget "HabbitTrackerUITests" */;
 			buildPhases = (
+				992074D851662CF5AF7254E7 /* [CP] Check Pods Manifest.lock */,
 				67ED674524B0C96200EB044F /* Sources */,
 				67ED674624B0C96200EB044F /* Frameworks */,
 				67ED674724B0C96200EB044F /* Resources */,
@@ -256,6 +300,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C044720C3616D9CDC80C6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabbitTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992074D851662CF5AF7254E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabbitTracker-HabbitTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B34C67174E129F45822046D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabbitTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67ED672124B0C95F00EB044F /* Sources */ = {
@@ -436,6 +549,7 @@
 		};
 		67ED675324B0C96200EB044F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F653C8D4A6D3868F0F5BD51 /* Pods-HabbitTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +568,7 @@
 		};
 		67ED675424B0C96200EB044F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2CF4B70EC63BB2332971E4 /* Pods-HabbitTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +587,7 @@
 		};
 		67ED675624B0C96200EB044F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BCAF622983D4A1077681D0 /* Pods-HabbitTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +610,7 @@
 		};
 		67ED675724B0C96200EB044F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89AEA003CC7F89FACEF2932 /* Pods-HabbitTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +633,7 @@
 		};
 		67ED675924B0C96200EB044F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1FBBC50AE5292BBA0659E4 /* Pods-HabbitTracker-HabbitTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +654,7 @@
 		};
 		67ED675A24B0C96200EB044F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52139B10321D169548BB9763 /* Pods-HabbitTracker-HabbitTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

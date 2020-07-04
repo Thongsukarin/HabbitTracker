@@ -1,0 +1,6 @@
+framework module Pods_HabbitTracker_HabbitTrackerUITests {
+  umbrella header "Pods-HabbitTracker-HabbitTrackerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
